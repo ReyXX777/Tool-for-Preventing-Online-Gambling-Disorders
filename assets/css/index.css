@@ -1,0 +1,133 @@
+/* index.css */
+
+/* General Layout */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    color: #333;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+/* Dark Mode Styling */
+body.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+header.dark-mode, nav.dark-mode, footer.dark-mode {
+    background-color: #1f1f1f;
+}
+
+/* Accessibility Toolbar */
+#accessibility-toolbar {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: #007bff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#accessibility-toolbar button {
+    background: #fff;
+    color: #007bff;
+    margin: 5px 0;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+#accessibility-toolbar button:hover {
+    background-color: #ddd;
+}
+
+/* High Contrast Mode */
+body.high-contrast {
+    background-color: #000;
+    color: #ffeb3b;
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #007bff;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Dashboard Section Styles */
+#real-time-monitoring, #alerts, #education, #analytics, #alert-management, #user-management {
+    margin-bottom: 20px;
+}
+
+/* Alerts Styling */
+#alert-list li {
+    background-color: #ffeb3b;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 4px;
+}
+
+/* Button Styling */
+button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+/* Admin Table Styling */
+#user-management table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#user-management th, #user-management td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+#user-management th {
+    background-color: #007bff;
+    color: white;
+}
+
+#user-management td {
+    background-color: #f9f9f9;
+}
